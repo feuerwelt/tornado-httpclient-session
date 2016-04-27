@@ -5,7 +5,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-VERSION = '0.2.0'
+VERSION = '0.2.1'
 
 setup(name='tornado-httpclient-session',
       version=VERSION,
